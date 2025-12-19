@@ -1,0 +1,6 @@
+#!/bin/bash
+
+SCRIPT_DIR="/home/nirm/Desktop/Christmas Lights"
+VENV_PY="/home/nirm/custom_led/bin/python"
+
+sudo "$VENV_PY" "$SCRIPT_DIR/app.py" "$@"
